@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "rectangle-1.js",
-  "dependencies": {
+  "dependencies": {   
     "yargs": "^6.6.0"
   },
   "devDependencies": {},
