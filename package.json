@@ -1,0 +1,23 @@
+{
+  "name": "node-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rectangle-1.js",
+  "dependencies": {
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maynagashev/node-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maynagashev/node-examples/issues"
+  },
+  "homepage": "https://github.com/Maynagashev/node-examples#readme"
+}
