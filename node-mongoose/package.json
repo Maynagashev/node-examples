@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "assert": "^1.4.1",
-    "mongoose": "^4.7.6"
+    "mongoose": "^4.7.6",
+    "mongoose-currency": "^0.2.0"
   }
 }
