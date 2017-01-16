@@ -5,7 +5,7 @@ var User = require('../models/user');
 var Verify    = require('./verify');
 
 /* GET users listing. */
-router.get('/', Verify.verifyAdmin, function(req, res, next) {
+router.get('/', Verify.verifyOrdinaryUser, Verify.verifyAdmin, function(req, res, next) {
   User.find({}, function (err, users) {
     if (err) throw err;
     res.json(users);
