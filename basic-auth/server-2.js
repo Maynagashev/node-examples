@@ -7,7 +7,7 @@ var port = 3000;
 
 var app = express();
 
-app.use(morgan('dev'));
+app.use(morgan('dev')); 
 
 app.use(cookieParser('12345-67890-09876-54321')); // secret key
 
